@@ -1,0 +1,23 @@
+COMMON TERMINOLOGIES
+root : topmost node 
+parent : node which originate other node is called parentsof that node 
+child : node that the prent node generate 
+leaf node / external node: those node which is not a parent of any other node 
+internal node : node which have atleast one child node 
+depth of node : no of edges from root to that node 
+height : no of nodes between root node and deepest left node 
+sibling: nodes having same parent node 
+
+BINARY TREES 
+Those trees in which degree of each node is 2 or less than 2.
+degree of node : no of child node it have 
+degree of tree : hoghest degree of node in that tree
+
+there are 4 types of binary trees
+ 1.) FULL/STRICT BINARY TREES : those tree in which each node will either have 0 or 2 node 
+ 2.) PERFECT BINARY TREE : those trees in which each level will be completely fill each node will have 2 children and all leaf nodes will be at same level 
+ 3.) COMPLETE BINARY TREE : those tree in which all leaf node will be left alighned 
+ 4.) DEGENERATE BINARY TREE : those tree in which each node will have excalty 1 child node , either on left or right 
+       i) left skewed : all node will have child alighned towards left
+       ii) right skewed : all node will have child aligned towards right 
+       
